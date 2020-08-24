@@ -1,5 +1,10 @@
 package kr.co.tongrami.controller;
 
-public class MemberController {
+import org.springframework.stereotype.Controller;
 
+@Controller
+public class MemberController {
+	
+	
+	
 }
