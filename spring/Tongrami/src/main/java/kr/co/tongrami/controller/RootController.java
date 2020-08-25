@@ -8,7 +8,7 @@ public class RootController {
 	
 	@RequestMapping("/")
 	String index() {
-		return "main";
+		return "index";
 	}
 	
 }

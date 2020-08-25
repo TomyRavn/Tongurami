@@ -6,6 +6,13 @@
   
  <configuration>
 	
+	<typeAliases>
+	 	<typeAlias type="kr.co.tongrami.model.Member" alias="Member" />
+	 </typeAliases>
 	
+	 
+	 <mappers>
+	 	<mapper resource="mybatis/member.xml" />
+	 </mappers>
 	
 </configuration>
